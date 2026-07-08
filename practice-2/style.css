@@ -1,0 +1,53 @@
+/* Apply font to entire page */
+
+*{
+
+    font-family: "Times New Roman", serif;
+
+}
+
+/* Center heading and capitalize */
+
+h1{
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    color: navy;
+
+}
+
+/* Outer div */
+
+#outer{
+
+    font-size: 25px;
+
+    border: 2px solid black;
+
+    padding: 20px;
+
+    width: 300px;
+
+    margin: 20px auto;
+
+    background-color: lightblue;
+
+}
+
+/* Inner div */
+
+#inner{
+
+    font-size: 10px;
+
+    border: 2px solid blue;
+
+    padding: 10px;
+
+    margin-top: 10px;
+
+    background-color: lightyellow;
+
+}
